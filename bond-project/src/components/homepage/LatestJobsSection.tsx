@@ -10,7 +10,6 @@ const jobs: JobProps[] = [
     location: 'Chicago, IL',
     type: 'Permanent',
     description: 'My leading Financial Services client is looking for a talented and motivated Security Project Manager to take responsibility for security initiatives across their global infrastructure.',
-    link: '#',
     tags: ['Security', 'Project Management']
   },
   {
@@ -19,7 +18,6 @@ const jobs: JobProps[] = [
     location: 'Singapore',
     type: 'Permanent',
     description: 'An Elite Trading Firm is looking for highly talented Software Engineers to work in a top team working on high-performance applications for their trading platform.',
-    link: '#',
     tags: ['Java', 'Trading', 'Low Latency']
   },
   {
@@ -28,7 +26,6 @@ const jobs: JobProps[] = [
     location: 'Singapore',
     type: 'Permanent',
     description: 'My client is looking for a talented Linux Engineer to join their growing tech team. The ideal candidate will have experience in high-availability systems and cloud infrastructure.',
-    link: '#',
     tags: ['Linux', 'DevOps', 'Cloud']
   },
   {
@@ -37,7 +34,6 @@ const jobs: JobProps[] = [
     location: 'London, UK',
     type: 'Permanent',
     description: 'Join a fast-growing fintech startup as a Frontend Developer working with modern React, TypeScript and Next.js to build their customer-facing applications.',
-    link: '#',
     tags: ['React', 'TypeScript', 'Fintech']
   }
 ];
