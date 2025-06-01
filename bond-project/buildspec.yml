@@ -1,0 +1,20 @@
+version: 0.2
+phases:
+  install:
+    runtime-versions:
+      nodejs: 18  # Match your Node version
+    commands:
+      - echo "🔍 Installing dependencies"
+      - npm ci || npm install  # safer and faster in CI
+  build:
+    commands:
+      - echo "🏗️ Building the React project with Vite"
+      - npm run build
+  post_build:
+    commands:
+      - echo "🚀 Syncing build output to S3"
+      - aws s3 sync dist s3://www.lekanmi.xyz --delete
+artifacts:
+  files:
+    - '**/*'
+    
