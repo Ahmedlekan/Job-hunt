@@ -13,7 +13,27 @@ on AWS
 
 ---
 
-![Image](https://github.com/user-attachments/assets/ceb26240-15df-426f-9e61-26db10914ee9)
+<div align="center">
+  
+  <br />
+       <img width="952" alt="Image" src="https://github.com/user-attachments/assets/ceb26240-15df-426f-9e61-26db10914ee9" alt="Architecture Diagram" />
+    </a>
+  <br />
+
+  <div>
+    <img src="https://img.shields.io/badge/-AWS-black?style=for-the-badge&logo=amazonaws&logoColor=white&color=232F3E" alt="aws" />
+    <img src="https://img.shields.io/badge/-Terraform-black?style=for-the-badge&logo=terraform&logoColor=white&color=623CE4" alt="terraform" />
+    <img src="https://img.shields.io/badge/-CloudFront-black?style=for-the-badge&logo=amazonaws&logoColor=white&color=FF9900" alt="cloudfront" />
+    <img src="https://img.shields.io/badge/-Static%20Website-black?style=for-the-badge&logo=html5&logoColor=white&color=E34F26" alt="static website" />
+    <img src="https://img.shields.io/badge/-CodePipeline-black?style=for-the-badge&logo=aws&logoColor=white&color=1A202C" alt="codepipeline" />
+    <img src="https://img.shields.io/badge/-DevOps-black?style=for-the-badge&logo=devops&logoColor=white&color=007ACC" alt="devops" />
+    <img src="https://img.shields.io/badge/-IaC-black?style=for-the-badge&logo=terraform&logoColor=white&color=5C4EE5" alt="infrastructure as code" />
+    <img src="https://img.shields.io/badge/-Vite-black?style=for-the-badge&logo=vite&logoColor=white&color=646CFF" alt="vite" />
+    <img src="https://img.shields.io/badge/-React-black?style=for-the-badge&logo=react&logoColor=white&color=61DAFB" alt="react" />
+    <img src="https://img.shields.io/badge/-S3-black?style=for-the-badge&logo=amazons3&logoColor=white&color=569A31" alt="s3" />
+    <img src="https://img.shields.io/badge/-CI/CD-black?style=for-the-badge&logo=githubactions&logoColor=white&color=2088FF" alt="ci/cd" />
+  </div>
+</div>
 
 ---
 
@@ -90,6 +110,13 @@ cp terraform.tfvars terraform.tfvars
 terraform init
 terraform apply -auto-approve
 ```
+
+🧠 Tips & Notes
+
+✅ Make sure your domain nameservers on GoDaddy point to Route 53
+
+🧪 Use terraform destroy to tear down all resources (except manually-linked domain)
+
 
 ## 🔹 2. Manual via AWS Console
 
@@ -417,7 +444,7 @@ Verify Deployment
 
 - Check S3 bucket for updated files
 
-- Visit your CloudFront URL (https://d12345.cloudfront.net)
+- Visit your website
 
 Check CloudFront Invalidation
 
@@ -445,7 +472,8 @@ git clone https://github.com/yourusername/smart-static-site.git
 ```
 
 
+💼 Author
 
-
-
+Fatiu Ahmed
+Cloud | DevOps | Terraform | AWS | React | MERN Stack 
 
