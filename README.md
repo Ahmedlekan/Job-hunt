@@ -475,5 +475,6 @@ git clone https://github.com/yourusername/smart-static-site.git
 💼 Author
 
 Fatiu Ahmed
+
 Cloud | DevOps | Terraform | AWS | React | MERN Stack 
 
