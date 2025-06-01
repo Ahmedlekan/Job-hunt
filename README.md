@@ -1,13 +1,21 @@
+# 🌐 Smart Static Website on AWS — Console + Terraform
 
-# Smart Static Website on AWS with CI/CD
+This project demonstrates two approaches to deploying a **production-ready, globally distributed, and secure static website**
+on AWS
 
-![Image](https://github.com/user-attachments/assets/83e65c7d-7693-4588-8587-77b87e63f80b)
+> 🔐 Zero public S3 access | ⚡ CI/CD with CodePipeline & CodeBuild | 🌐 HTTPS with ACM | 🛡️ WAF for protection | 📦 React + Vite frontend
 
+---
 
-### 📌 Description
+1. **Manual provisioning via the AWS Console**
 
-A globally-distributed, secure, and production-grade static website hosted on AWS using S3, CloudFront, ACM, WAF, CloudWatch, and automated deployments via CodeBuild CI/CD. Domain is registered via GoDaddy.
+2. **Full Infrastructure as Code (IaC) automation using Terraform**
 
+---
+
+![Image](https://github.com/user-attachments/assets/ceb26240-15df-426f-9e61-26db10914ee9)
+
+---
 
 ### 🚀 Features
 
@@ -29,25 +37,61 @@ This project sets up a React-based static site hosted securely with full DevOps 
 
 - Cost-effective and scalable
 
+---
 
-### 🧰 Tech Stack
+## 🛠️ Tech Stack
 
-🔑 GoDaddy – Domain registrar
+| Component     | Service Used            |
+|---------------|--------------------------|
+| Domain        | GoDaddy + Route 53       |
+| Hosting       | Amazon S3 (private)       |
+| CDN           | CloudFront + OAC         |
+| TLS/SSL       | AWS Certificate Manager  |
+| Firewall      | AWS WAF                  |
+| Monitoring    | CloudWatch Logs & Alarms |
+| CI/CD         | CodePipeline + CodeBuild |
+| Frontend      | React + Vite             |
+| IaC           | Terraform                |
 
-🪣 Amazon S3 – Static file storage
+---
 
-🌍 CloudFront – Global CDN
+## 🚨 Pre-requisites
 
-🔒 AWS Certificate Manager – HTTPS support
+- AWS CLI configured (`aws configure`)
+- Terraform ≥ 1.3.0
+- A **domain registered on GoDaddy**
+- Frontend code repo (React/Vite-based recommended)
 
-🛡 AWS WAF – Security firewall
+---
 
-📊 CloudWatch – Logs and metrics
+## 🔸 1. Automated via Terraform (Preferred)
 
-🤖 AWS CodeBuild + CodePipeline – CI/CD automation
+This repo includes Terraform code to deploy the same infrastructure in a reproducible and scalable way.
 
-⚛ React + Vite – Frontend framework
 
+### 🚀 How to Deploy (Quick Start)
+
+1. Clone this repository
+
+```bash
+git clone https://github.com/yourname/smart-static-site-terraform.git
+cd terraform
+```
+
+2. Copy and edit variables
+
+```bash
+cp terraform.tfvars terraform.tfvars
+# Edit your domain, bucket names, GitHub repo, distribution ID, etc.
+```
+3. Initialize and apply
+
+```bash
+terraform init
+terraform apply -auto-approve
+```
+
+## 🔹 2. Manual via AWS Console
 
 ### 🛠️ Step-by-Step Setup
 
