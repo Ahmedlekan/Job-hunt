@@ -74,7 +74,7 @@ This repo includes Terraform code to deploy the same infrastructure in a reprodu
 1. Clone this repository
 
 ```bash
-git clone https://github.com/yourname/smart-static-site-terraform.git
+git clone https://github.com/Ahmedlekan/Job-hunt.git
 cd terraform
 ```
 
