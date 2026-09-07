@@ -16,8 +16,7 @@ on AWS
 <div align="center">
   
   <br />
-       <img width="952" alt="Image" src="https://github.com/user-attachments/assets/41e9301a-8ea8-48bc-8e1c-f17b231a8d60" alt="Architecture Diagram" />
-    </a>
+       <img width="1536" height="1024" alt="Image" src="https://github.com/user-attachments/assets/d394776c-733b-419a-9c23-12b1cabc424d" />
   <br />
 
   <div>
